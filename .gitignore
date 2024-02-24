@@ -1,3 +1,8 @@
+.curseclient
+.ReAuth.cfg
+/config/InvTweaks.cfg/
+/config/splash.properties/
+/config/buildcraft/detailed.properties/
 /discordsuite/
 /downloads/
 /journeymap/
@@ -10,8 +15,6 @@
 /saves/
 /shaderpacks/
 /snapshots-server/
-.curseclient
-.ReAuth.cfg
 BotaniaVars.dat
 crafttweaker.log
 minecraftinstance.json
