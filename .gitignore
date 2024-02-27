@@ -1,5 +1,8 @@
 .curseclient
 .ReAuth.cfg
+/backups/
+/config/bookmarks.ini/
+/PSD/
 /config/InvTweaks.cfg/
 /config/splash.properties/
 /config/buildcraft/detailed.properties/
