@@ -44,40 +44,46 @@ mods.avaritia.Compressor.remove(<avaritia:singularity:11>);
 mods.avaritia.Compressor.remove(<avaritia:singularity:10>);
 mods.avaritia.Compressor.remove(<avaritia:singularity:9>);
 //Iron
-mods.avaritia.Compressor.add("singularity_iron", <contenttweaker:singularity_iron>, 10000, <minecraft:iron_block>, true);
+mods.avaritia.Compressor.add("singularity_iron", <contenttweaker:singularity_iron>, 4269, <minecraft:iron_block>, true);
 //Gold
-mods.avaritia.Compressor.add("singularity_gold", <contenttweaker:singularity_gold>, 10000, <minecraft:gold_block>, true);
+mods.avaritia.Compressor.add("singularity_gold", <contenttweaker:singularity_gold>, 4269, <minecraft:gold_block>, true);
 //Lapis
-mods.avaritia.Compressor.add("singularity_lapis", <contenttweaker:singularity_lapis>, 10000, <minecraft:lapis_block>, true);
+mods.avaritia.Compressor.add("singularity_lapis", <contenttweaker:singularity_lapis>, 4269, <minecraft:lapis_block>, true);
 //Redstone
-mods.avaritia.Compressor.add("singularity_redstone", <contenttweaker:singularity_redstone>, 10000, <minecraft:redstone_block>, true);
+mods.avaritia.Compressor.add("singularity_redstone", <contenttweaker:singularity_redstone>, 4269, <minecraft:redstone_block>, true);
 //Quartz
-mods.avaritia.Compressor.add("singularity_quartz", <contenttweaker:singularity_quartz>, 10000, <minecraft:quartz_block>, true);
+mods.avaritia.Compressor.add("singularity_quartz", <contenttweaker:singularity_quartz>, 4269, <minecraft:quartz_block>, true);
 //Copper
-mods.avaritia.Compressor.add("singularity_copper", <contenttweaker:singularity_copper>, 10000, <thermalfoundation:storage:0>, true);
+mods.avaritia.Compressor.add("singularity_copper", <contenttweaker:singularity_copper>, 4269, <thermalfoundation:storage:0>, true);
 //Tin
-mods.avaritia.Compressor.add("singularity_tin", <contenttweaker:singularity_tin>, 10000, <thermalfoundation:storage:1>, true);
+mods.avaritia.Compressor.add("singularity_tin", <contenttweaker:singularity_tin>, 4269, <thermalfoundation:storage:1>, true);
 //Lead
-mods.avaritia.Compressor.add("singularity_lead", <contenttweaker:singularity_lead>, 10000, <thermalfoundation:storage:3>, true);
+mods.avaritia.Compressor.add("singularity_lead", <contenttweaker:singularity_lead>, 4269, <thermalfoundation:storage:3>, true);
 //Silver
-mods.avaritia.Compressor.add("singularity_silver", <contenttweaker:singularity_silver>, 10000, <thermalfoundation:storage:2>, true);
+mods.avaritia.Compressor.add("singularity_silver", <contenttweaker:singularity_silver>, 4269, <thermalfoundation:storage:2>, true);
 //Nickel
-mods.avaritia.Compressor.add("singularity_nickel", <contenttweaker:singularity_nickel>, 10000, <thermalfoundation:storage:5>, true);
+mods.avaritia.Compressor.add("singularity_nickel", <contenttweaker:singularity_nickel>, 4269, <thermalfoundation:storage:5>, true);
 //Diamond
-mods.avaritia.Compressor.add("singularity_diamond", <contenttweaker:singularity_diamond>, 10000, <minecraft:diamond_block>, true);
+mods.avaritia.Compressor.add("singularity_diamond", <contenttweaker:singularity_diamond>, 4269, <minecraft:diamond_block>, true);
 //Emerald
-mods.avaritia.Compressor.add("singularity_emerald", <contenttweaker:singularity_emerald>, 10000, <minecraft:emerald_block>, true);
+mods.avaritia.Compressor.add("singularity_emerald", <contenttweaker:singularity_emerald>, 4269, <minecraft:emerald_block>, true);
 //Fluxed
-mods.avaritia.Compressor.add("singularity_fluxed", <contenttweaker:singularity_fluxed>, 10000, <redstonearsenal:storage>, true);
+mods.avaritia.Compressor.add("singularity_fluxed", <contenttweaker:singularity_fluxed>, 4269, <redstonearsenal:storage>, true);
 //Platinum
-mods.avaritia.Compressor.add("singularity_platinum", <contenttweaker:singularity_platinum>, 10000, <thermalfoundation:storage:6>, true);
+mods.avaritia.Compressor.add("singularity_platinum", <contenttweaker:singularity_platinum>, 4269, <thermalfoundation:storage:6>, true);
 //Iridium
-mods.avaritia.Compressor.add("singularity_iridium", <contenttweaker:singularity_iridium>, 10000, <thermalfoundation:storage:7>, true);
+mods.avaritia.Compressor.add("singularity_iridium", <contenttweaker:singularity_iridium>, 4269, <thermalfoundation:storage:7>, true);
 //Void
-mods.avaritia.Compressor.add("singularity_void", <contenttweaker:singularity_void>, 10000, <thaumcraft:metal_void>, true);
+mods.avaritia.Compressor.add("singularity_void", <contenttweaker:singularity_void>, 4269, <thaumcraft:metal_void>, true);
 //Thaumium
-mods.avaritia.Compressor.add("singularity_thaumium", <contenttweaker:singularity_thaumium>, 10000, <thaumcraft:metal_thaumium>, true);
+mods.avaritia.Compressor.add("singularity_thaumium", <contenttweaker:singularity_thaumium>, 4269, <thaumcraft:metal_thaumium>, true);
 //Brass
-mods.avaritia.Compressor.add("singularity_brass", <contenttweaker:singularity_brass>, 10000, <thaumcraft:metal_brass>, true);
+mods.avaritia.Compressor.add("singularity_brass", <contenttweaker:singularity_brass>, 4269, <thaumcraft:metal_brass>, true);
+//Manasteel
+mods.avaritia.Compressor.add("singularity_manasteel", <contenttweaker:singularity_manasteel>, 4269, <botania:storage>, true);
+//Terrasteel
+mods.avaritia.Compressor.add("singularity_terrasteel", <contenttweaker:singularity_terrasteel>, 4269, <botania:storage:1>, true);
+//Elementium
+mods.avaritia.Compressor.add("singularity_elementium", <contenttweaker:singularity_elementium>, 4269, <botania:storage:2>, true);
 
 print("--- ExtendedCrafting.zs initialized ---");

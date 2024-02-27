@@ -82,4 +82,16 @@ var singu_brass = VanillaFactory.createItem("singularity_brass");
 singu_brass.maxStackSize = 64;
 singu_brass.register();
 
+var singu_manasteel = VanillaFactory.createItem("singularity_manasteel");
+singu_manasteel.maxStackSize = 64;
+singu_manasteel.register();
+
+var singu_terrasteel = VanillaFactory.createItem("singularity_terrasteel");
+singu_terrasteel.maxStackSize = 64;
+singu_terrasteel.register();
+
+var singu_elementium = VanillaFactory.createItem("singularity_elementium");
+singu_elementium.maxStackSize = 64;
+singu_elementium.register();
+
 /*****************************Blocks*****************************/
