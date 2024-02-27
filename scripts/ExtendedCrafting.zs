@@ -75,5 +75,9 @@ mods.avaritia.Compressor.add("singularity_platinum", <contenttweaker:singularity
 mods.avaritia.Compressor.add("singularity_iridium", <contenttweaker:singularity_iridium>, 10000, <thermalfoundation:storage:7>, true);
 //Void
 mods.avaritia.Compressor.add("singularity_void", <contenttweaker:singularity_void>, 10000, <thaumcraft:metal_void>, true);
+//Thaumium
+mods.avaritia.Compressor.add("singularity_thaumium", <contenttweaker:singularity_thaumium>, 10000, <thaumcraft:metal_thaumium>, true);
+//Brass
+mods.avaritia.Compressor.add("singularity_brass", <contenttweaker:singularity_brass>, 10000, <thaumcraft:metal_brass>, true);
 
 print("--- ExtendedCrafting.zs initialized ---");

@@ -74,4 +74,12 @@ var singu_void = VanillaFactory.createItem("singularity_void");
 singu_void.maxStackSize = 64;
 singu_void.register();
 
+var singu_thaumium = VanillaFactory.createItem("singularity_thaumium");
+singu_thaumium.maxStackSize = 64;
+singu_thaumium.register();
+
+var singu_brass = VanillaFactory.createItem("singularity_brass");
+singu_brass.maxStackSize = 64;
+singu_brass.register();
+
 /*****************************Blocks*****************************/
