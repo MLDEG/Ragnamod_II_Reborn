@@ -44,20 +44,34 @@ mods.avaritia.Compressor.remove(<avaritia:singularity:11>);
 mods.avaritia.Compressor.remove(<avaritia:singularity:10>);
 mods.avaritia.Compressor.remove(<avaritia:singularity:9>);
 //Iron
-mods.avaritia.Compressor.add("singularity_iron", <avaritia:singularity:0>, 10000, <minecraft:iron_block>, true);
-mods.avaritia.Compressor.add("singularity_gold", <avaritia:singularity:1>, 10000, <minecraft:gold_block>, true);
-mods.avaritia.Compressor.add("singularity_lapis", <avaritia:singularity:2>, 10000, <minecraft:lapis_block>, true);
-mods.avaritia.Compressor.add("singularity_redstone", <avaritia:singularity:3>, 10000, <minecraft:redstone_block>, true);
-mods.avaritia.Compressor.add("singularity_quartz", <avaritia:singularity:4>, 10000, <minecraft:quartz_block>, true);
-mods.avaritia.Compressor.add("singularity_copper", <avaritia:singularity:5>, 10000, <thermalfoundation:storage:0>, true);
-mods.avaritia.Compressor.add("singularity_tin", <avaritia:singularity:6>, 10000, <thermalfoundation:storage:1>, true);
-mods.avaritia.Compressor.add("singularity_lead", <avaritia:singularity:7>, 10000, <thermalfoundation:storage:3>, true);
-mods.avaritia.Compressor.add("singularity_silver", <avaritia:singularity:8>, 10000, <thermalfoundation:storage:2>, true);
-mods.avaritia.Compressor.add("singularity_nickel", <avaritia:singularity:9>, 10000, <thermalfoundation:storage:5>, true);
-mods.avaritia.Compressor.add("singularity_diamond", <avaritia:singularity:10>, 10000, <minecraft:diamond_block>, true);
-mods.avaritia.Compressor.add("singularity_emerald", <avaritia:singularity:11>, 10000, <minecraft:emerald_block>, true);
-mods.avaritia.Compressor.add("singularity_fluxed", <avaritia:singularity:12>, 10000, <redstonearsenal:storage>, true);
-mods.avaritia.Compressor.add("singularity_platinum", <avaritia:singularity:13>, 10000, <thermalfoundation:storage:6>, true);
-mods.avaritia.Compressor.add("singularity_iridium", <avaritia:singularity:14>, 10000, <thermalfoundation:storage:7>, true);
+mods.avaritia.Compressor.add("singularity_iron", <contenttweaker:singularity_iron>, 10000, <minecraft:iron_block>, true);
+//Gold
+mods.avaritia.Compressor.add("singularity_gold", <contenttweaker:singularity_gold>, 10000, <minecraft:gold_block>, true);
+//Lapis
+mods.avaritia.Compressor.add("singularity_lapis", <contenttweaker:singularity_lapis>, 10000, <minecraft:lapis_block>, true);
+//Redstone
+mods.avaritia.Compressor.add("singularity_redstone", <contenttweaker:singularity_redstone>, 10000, <minecraft:redstone_block>, true);
+//Quartz
+mods.avaritia.Compressor.add("singularity_quartz", <contenttweaker:singularity_quartz>, 10000, <minecraft:quartz_block>, true);
+//Copper
+mods.avaritia.Compressor.add("singularity_copper", <contenttweaker:singularity_copper>, 10000, <thermalfoundation:storage:0>, true);
+//Tin
+mods.avaritia.Compressor.add("singularity_tin", <contenttweaker:singularity_tin>, 10000, <thermalfoundation:storage:1>, true);
+//Lead
+mods.avaritia.Compressor.add("singularity_lead", <contenttweaker:singularity_lead>, 10000, <thermalfoundation:storage:3>, true);
+//Silver
+mods.avaritia.Compressor.add("singularity_silver", <contenttweaker:singularity_silver>, 10000, <thermalfoundation:storage:2>, true);
+//Nickel
+mods.avaritia.Compressor.add("singularity_nickel", <contenttweaker:singularity_nickel>, 10000, <thermalfoundation:storage:5>, true);
+//Diamond
+mods.avaritia.Compressor.add("singularity_diamond", <contenttweaker:singularity_diamond>, 10000, <minecraft:diamond_block>, true);
+//Emerald
+mods.avaritia.Compressor.add("singularity_emerald", <contenttweaker:singularity_emerald>, 10000, <minecraft:emerald_block>, true);
+//Fluxed
+mods.avaritia.Compressor.add("singularity_fluxed", <contenttweaker:singularity_fluxed>, 10000, <redstonearsenal:storage>, true);
+//Platinum
+mods.avaritia.Compressor.add("singularity_platinum", <contenttweaker:singularity_platinum>, 10000, <thermalfoundation:storage:6>, true);
+//Iridium
+mods.avaritia.Compressor.add("singularity_iridium", <contenttweaker:singularity_iridium>, 10000, <thermalfoundation:storage:7>, true);
 
 print("--- ExtendedCrafting.zs initialized ---");
