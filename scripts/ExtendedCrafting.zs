@@ -3,7 +3,7 @@ print("--- loading ExtendedCrafting.zs ---");
 //Ultimate Stew
 mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>);
 mods.avaritia.ExtremeCrafting.addShaped("ultimate_stew",<avaritia:ultimate_stew> * 9,
-[[<minecraft:cauldron>, <avaritia:resource:3>, <minecraft:carrot>, <minecraft:beetroot>, <minecraft:potato>, <minecraft:apple>, <minecraft:melon>, <minecraft:pumpkin>, <minecraft:wheat>],
+[[<forestry:royal_jelly>, <avaritia:resource:3>, <minecraft:carrot>, <minecraft:beetroot>, <minecraft:potato>, <minecraft:apple>, <minecraft:melon>, <minecraft:pumpkin>, <minecraft:wheat>],
   [<minecraft:brown_mushroom>, <minecraft:red_mushroom>, <harvestcraft:orangeitem>, <harvestcraft:peachitem>, <harvestcraft:pearitem>, <harvestcraft:blueberryitem>, <harvestcraft:blackberryitem>, <harvestcraft:raspberryitem>, <harvestcraft:elderberryitem>],
   [<harvestcraft:limeitem>, <harvestcraft:bananaitem>, <harvestcraft:coffeebeanitem>, <harvestcraft:candleberryitem>, <harvestcraft:strawberryitem>, <harvestcraft:cactusfruititem>, <harvestcraft:amaranthitem>, <harvestcraft:rambutanitem>, <harvestcraft:plumitem>],
   [<harvestcraft:avocadoitem>, <harvestcraft:jicamaitem>, <harvestcraft:huckleberryitem>, <harvestcraft:spinachitem>, <harvestcraft:radishitem>, <harvestcraft:mulberryitem>, <harvestcraft:dragonfruititem>, <harvestcraft:lycheeitem>, <harvestcraft:persimmonitem>],
@@ -85,5 +85,71 @@ mods.avaritia.Compressor.add("singularity_manasteel", <contenttweaker:singularit
 mods.avaritia.Compressor.add("singularity_terrasteel", <contenttweaker:singularity_terrasteel>, 4269, <botania:storage:1>, true);
 //Elementium
 mods.avaritia.Compressor.add("singularity_elementium", <contenttweaker:singularity_elementium>, 4269, <botania:storage:2>, true);
+//Fluix
+mods.avaritia.Compressor.add("singularity_fluix", <contenttweaker:singularity_fluix>, 4269, <appliedenergistics2:fluix_block>, true);
+//Certus Quartz
+mods.avaritia.Compressor.add("singularity_certus", <contenttweaker:singularity_certus>, 4269, <appliedenergistics2:quartz_block>, true);
+//Alumite
+mods.avaritia.Compressor.add("singularity_alumite", <contenttweaker:singularity_alumite>, 4269, <plustic:alumiteblock>, true);
+//Lumium
+mods.avaritia.Compressor.add("singularity_lumium", <contenttweaker:singularity_lumium>, 4269, <thermalfoundation:storage_alloy:6>, true);
+//Signalum
+mods.avaritia.Compressor.add("singularity_signalum", <contenttweaker:singularity_signalum>, 4269, <thermalfoundation:storage_alloy:5>, true);
+//Constantan
+mods.avaritia.Compressor.add("singularity_constantan", <contenttweaker:singularity_constantan>, 4269, <thermalfoundation:storage_alloy:4>, true);
+//Awakened Draconium
+mods.avaritia.Compressor.add("singularity_awakened_draco", <contenttweaker:singularity_awakened_draco>, 4269, <draconicevolution:draconic_block>, true);
+//Draconium
+mods.avaritia.Compressor.add("singularity_draconium", <contenttweaker:singularity_draconium>, 4269, <draconicevolution:draconium_block>, true);
+//Amber
+mods.avaritia.Compressor.add("singularity_amber", <contenttweaker:singularity_amber>, 4269, <biomesoplenty:gem_block:7>, true);
+//Sapphire
+mods.avaritia.Compressor.add("singularity_sapphire", <contenttweaker:singularity_sapphire>, 4269, <biomesoplenty:gem_block:6>, true);
+//Tanzanite
+mods.avaritia.Compressor.add("singularity_tanzanite", <contenttweaker:singularity_tanzanite>, 4269, <biomesoplenty:gem_block:4>, true);
+//Topaz
+mods.avaritia.Compressor.add("singularity_topaz", <contenttweaker:singularity_topaz>, 4269, <biomesoplenty:gem_block:3>, true);
+//Peridot
+mods.avaritia.Compressor.add("singularity_peridot", <contenttweaker:singularity_peridot>, 4269, <biomesoplenty:gem_block:2>, true);
+//Ruby
+mods.avaritia.Compressor.add("singularity_ruby", <contenttweaker:singularity_ruby>, 4269, <biomesoplenty:gem_block:1>, true);
+//Amethyst
+mods.avaritia.Compressor.add("singularity_amethyst", <contenttweaker:singularity_amethyst>, 4269, <biomesoplenty:gem_block>, true);
+//Manyullyn
+mods.avaritia.Compressor.add("singularity_manyullyn", <contenttweaker:singularity_manyullyn>, 4269, <tconstruct:metal:2>, true);
+//Ardite
+mods.avaritia.Compressor.add("singularity_ardite", <contenttweaker:singularity_ardite>, 4269, <tconstruct:metal:1>, true);
+//Cobalt
+mods.avaritia.Compressor.add("singularity_cobalt", <contenttweaker:singularity_cobalt>, 4269, <tconstruct:metal>, true);
+//Enderium
+mods.avaritia.Compressor.add("singularity_enderium", <contenttweaker:singularity_enderium>, 4269, <thermalfoundation:storage_alloy:7>, true);
+//Bronze
+mods.avaritia.Compressor.add("singularity_bronze", <contenttweaker:singularity_bronze>, 4269, <thermalfoundation:storage_alloy:3>, true);
+//Steel
+mods.avaritia.Compressor.add("singularity_steel", <contenttweaker:singularity_steel>, 4269, <thermalfoundation:storage_alloy>, true);
+//Invar
+mods.avaritia.Compressor.add("singularity_invar", <contenttweaker:singularity_invar>, 4269, <thermalfoundation:storage_alloy:2>, true);
+//Electrum
+mods.avaritia.Compressor.add("singularity_electrum", <contenttweaker:singularity_electrum>, 4269, <thermalfoundation:storage_alloy:1>, true);
+//Mana Infused
+mods.avaritia.Compressor.add("singularity_mithril", <contenttweaker:singularity_mithril>, 4269, <thermalfoundation:storage:8>, true);
+//End Steel
+mods.avaritia.Compressor.add("singularity_endsteel", <contenttweaker:singularity_endsteel>, 4269, <enderio:block_alloy:8>, true);
+//Soularium
+mods.avaritia.Compressor.add("singularity_soularium", <contenttweaker:singularity_soularium>, 4269, <enderio:block_alloy:7>, true);
+//Dark Steel
+mods.avaritia.Compressor.add("singularity_darksteel", <contenttweaker:singularity_darksteel>, 4269, <enderio:block_alloy:6>, true);
+//Pulsating Iron
+mods.avaritia.Compressor.add("singularity_pulsating_iron", <contenttweaker:singularity_pulsating_iron>, 4269, <enderio:block_alloy:5>, true);
+//Conductive Iron
+mods.avaritia.Compressor.add("singularity_conductive_iron", <contenttweaker:singularity_conductive_iron>, 4269, <enderio:block_alloy:4>, true);
+//Redstone Alloy
+mods.avaritia.Compressor.add("singularity_redstone_alloy", <contenttweaker:singularity_redstone_alloy>, 4269, <enderio:block_alloy:3>, true);
+//Vibrant Alloy
+mods.avaritia.Compressor.add("singularity_vibrant_alloy", <contenttweaker:singularity_vibrant_alloy>, 4269, <enderio:block_alloy:2>, true);
+//Energetic Alloy
+mods.avaritia.Compressor.add("singularity_energetic_alloy", <contenttweaker:singularity_energetic_alloy>, 4269, <enderio:block_alloy:1>, true);
+//Electrical Steel
+mods.avaritia.Compressor.add("singularity_electrical_steel", <contenttweaker:singularity_electrical_steel>, 4269, <enderio:block_alloy>, true);
 
 print("--- ExtendedCrafting.zs initialized ---");
