@@ -26,6 +26,19 @@ mods.avaritia.ExtremeCrafting.addShaped("cosmic_meatballs",<avaritia:cosmic_meat
   [null, null, null, null, null, null, null, null, null],
   [null, null, null, null, null, null, null, null, null]]);
 
+//Infinity Catalyst
+mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
+mods.avaritia.ExtremeCrafting.addShaped("infinity_catalyst",<avaritia:resource:5>,
+[[<avaritia:block_resource:0>, <avaritia:resource:1>, <avaritia:resource:0>, <avaritia:ultimate_stew>, <thaumcraft:causality_collapser>, <avaritia:cosmic_meatballs>, <avaritia:endest_pearl>, <avaritia:resource:7>, <extrautils2:decorativesolid:8>],
+  [<contenttweaker:singularity_redstone>, <contenttweaker:singularity_redstone_alloy>, <contenttweaker:singularity_fluxed>, <contenttweaker:singularity_awakened_draco>, <contenttweaker:singularity_signalum>, <contenttweaker:singularity_ardite>, <contenttweaker:singularity_copper>, <contenttweaker:singularity_topaz>, <contenttweaker:singularity_bronze>],
+  [<contenttweaker:singularity_amber>, <contenttweaker:singularity_energetic_alloy>, <contenttweaker:singularity_brass>, <contenttweaker:singularity_constantan>, <contenttweaker:singularity_electrum>, <contenttweaker:singularity_gold>, <contenttweaker:singularity_vibrant_alloy>, <contenttweaker:singularity_nickel>, <contenttweaker:singularity_endsteel>],
+  [<contenttweaker:singularity_lumium>, <contenttweaker:singularity_peridot>, <contenttweaker:singularity_emerald>, <contenttweaker:singularity_terrasteel>, <contenttweaker:singularity_pulsating_iron>, <contenttweaker:singularity_enderium>, <contenttweaker:singularity_diamond>, <contenttweaker:singularity_tin>, <contenttweaker:singularity_mithril>],
+  [<contenttweaker:singularity_manasteel>, <contenttweaker:singularity_sapphire>, <contenttweaker:singularity_platinum>, <contenttweaker:singularity_cobalt>, <contenttweaker:singularity_lapis>, <contenttweaker:singularity_tanzanite>, <contenttweaker:singularity_thaumium>, <contenttweaker:singularity_lead>, <contenttweaker:singularity_void>],
+  [<contenttweaker:singularity_fluix>, <contenttweaker:singularity_draconium>, <contenttweaker:singularity_manyullyn>, <contenttweaker:singularity_elementium>, <contenttweaker:singularity_amethyst>, <contenttweaker:singularity_alumite>, <contenttweaker:singularity_ruby>, <contenttweaker:singularity_conductive_iron>, <contenttweaker:singularity_soularium>],
+  [<contenttweaker:singularity_darksteel>, <contenttweaker:singularity_steel>, <contenttweaker:singularity_invar>, <contenttweaker:singularity_electrical_steel>, <contenttweaker:singularity_quartz>, <contenttweaker:singularity_iron>, <contenttweaker:singularity_certus>, <contenttweaker:singularity_silver>, <contenttweaker:singularity_iridium>],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null]]);
+
 /**********************************Singularity**********************************/
 //Remove
 mods.avaritia.Compressor.remove(<avaritia:singularity:8>);
