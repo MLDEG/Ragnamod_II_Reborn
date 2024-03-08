@@ -1,138 +1,178 @@
 {
     "images":
     {
-        "title":
+        "II":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
+            "image" : "custommmenu:textures/gui/II.png",
+            "posX" : -66,
+            "posY" : 10,
+            "width" : 132,
+            "height" : 113,
             "alignment" : "top_center"
         },
-        
-        "edition":
+        "ragnamod":
         {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
+            "image" : "custommmenu:textures/gui/ragnamod.png",
+            "posX" : -110,
+            "posY" : 60,
+            "width" : 220,
+            "height" : 225,
+            "alignment" : "top_center"
+        },
+        "ragnalogo":
+        {
+            "image" : "custommmenu:textures/gui/ragnalogo.png",
+            "posX" : -130,
+            "posY" : 25,
+            "width" : 400,
+            "height" : 75,
+            "alignment" : "top_center"
+        },
+        "reborn":
+        {
+            "image" : "custommmenu:textures/gui/reborn.png",
+            "posX" : -55,
+            "posY" : 80,
+            "width" : 200,
+            "height" : 37,
             "alignment" : "top_center"
         }
     },
-    
     "buttons":
     {
         "singleplayer":
         {
             "text" : "menu.singleplayer",
             "posX" : -100,
-            "posY" : 0,
+            "posY" : 48,
             "width" : 200,
             "height" : 20,
-            "action" : 
+            "normalTextColor": 2452947,
+            "hoverTextColor": 16777215,
+            "texture": "custommmenu:textures/gui/button1.png",
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
             }
         },
-        
         "multiplayer":
         {
             "text" : "menu.multiplayer",
             "posX" : -100,
-            "posY" : 24,
+            "posY" : 72,
             "width" : 200,
             "height" : 20,
-            "action" : 
+            "normalTextColor": 2452947,
+            "hoverTextColor": 16777215,
+            "texture": "custommmenu:textures/gui/button1.png",
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
         },
-        
         "mods":
         {
             "text" : "fml.menu.mods",
             "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
+            "posY" : 96,
+            "width" : 98,
             "height" : 20,
-            "action" : 
+            "normalTextColor": 2452947,
+            "hoverTextColor": 16777215,
+            "texture": "custommmenu:textures/gui/button2.png",
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "mods"
             }
         },
-            
+        "serveurfile":
+        {
+            "text" : "Server File",
+            "posX" : 2,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "normalTextColor": 2452947,
+            "hoverTextColor": 16777215,
+            "texture": "custommmenu:textures/gui/button2.png",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://www.curseforge.com/minecraft/modpacks/ragnamod-ii-reborn/files"
+            }
+        },
         "options":
         {
             "text" : "menu.options",
             "posX" : -100,
-            "posY" : 84,
+            "posY" : 132,
             "width" : 98,
             "height" : 20,
-            "action" : 
+            "normalTextColor": 2452947,
+            "hoverTextColor": 16777215,
+            "texture": "custommmenu:textures/gui/button2.png",
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "options"
             }
         },
-        
         "quit":
         {
             "text" : "menu.quit",
             "posX" : 2,
-            "posY" : 84,
+            "posY" : 132,
             "width" : 98,
             "height" : 20,
-            "action" : 
+            "normalTextColor": 2452947,
+            "hoverTextColor": 16777215,
+            "texture": "custommmenu:textures/gui/button2.png",
+            "action" :
             {
                 "type" : "quit"
             }
         },
-        
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 84,
+            "posX" : 104,
+            "posY" : 132,
             "width" : 20,
             "height" : 20,
-            "action" : 
+            "texture" : "custommmenu:textures/gui/buttonsW.png",
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "languages"
             }
         },
-        
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 84,
+            "posX" : -124,
+            "posY" : 132,
             "width" : 20,
             "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
+            "texture" : "custommmenu:textures/gui/buttonsR.png",
+            "action" :
             {
                 "type" : "refresh"
             }
         }
     },
-    
     "labels":
     {
         "modpack":
         {
-            "text" : "Ragnamod II Reborn 1.3.0 powered by Alkasym & MrMLDEG",
+            "text" : "Ragnamod II Reborn 2.0.0 powered by Alkasym & MrMLDEG",
             "posX" : 2,
             "posY" : -50,
             "color" : -1,
             "alignment" : "bottom_left"
         },
-
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
@@ -141,13 +181,12 @@
             "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_right",
-            "action" : 
+            "action" :
             {
                 "type" : "openGui",
                 "gui" : "credits"
             }
         },
-        
         "fml":
         {
             "text" : "",
@@ -157,31 +196,20 @@
             "alignment" : "bottom_left"
         }
     },
-    
     "other":
     {
-        "background":
-		{
-			"image" : "mainmenu:background.png",
-			"mode" : "fill"
-        },
-        
-        "splash-text":
+        "background" :
         {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "",
+            "slideshow" :
+            {
+                "images" :
+                [
+                "custommmenu:textures/menu/00.png"
+                ],
+                "displayDuration" : 1,
+                "fadeDuration" : 0
+            }
         }
     }
 }
